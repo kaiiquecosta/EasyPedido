@@ -57281,7 +57281,7 @@ object frmLogin: TfrmLogin
       Font.Style = []
       ParentColor = False
       ParentFont = False
-      ExplicitWidth = 207
+      ExplicitTop = 50
     end
     object lblAcessar: TLabel
       Left = 0
@@ -57296,7 +57296,7 @@ object frmLogin: TfrmLogin
       Font.Name = 'Segoe UI Semibold'
       Font.Style = [fsBold]
       ParentFont = False
-      ExplicitWidth = 291
+      ExplicitTop = -3
     end
     object lblEmail: TLabel
       AlignWithMargins = True
@@ -57330,6 +57330,7 @@ object frmLogin: TfrmLogin
       Color = 16475988
       ParentBackground = False
       TabOrder = 0
+      ExplicitTop = 283
       object btnAcessar: TSpeedButton
         Left = 0
         Top = 0
@@ -57359,6 +57360,7 @@ object frmLogin: TfrmLogin
       Color = 5127481
       ParentBackground = False
       TabOrder = 1
+      ExplicitTop = 119
       object edtEmail: TEdit
         AlignWithMargins = True
         Left = 10
@@ -57397,6 +57399,7 @@ object frmLogin: TfrmLogin
       Color = 5127481
       ParentBackground = False
       TabOrder = 2
+      ExplicitTop = 119
       object edtSenha: TEdit
         AlignWithMargins = True
         Left = 10
