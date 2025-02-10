@@ -3,14 +3,23 @@
 	<Transactions>
     <Transaction>2023/07/29 11:56:31.000.352,=C:\Users\Jackboy\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>2025/02/09 10:55:00.000.364,=C:\Users\Jackboy\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2025/02/09 10:56:29.000.336,C:\Users\Jackboy\Documents\Embarcadero\Studio\Projects\Unit1.dfm=D:\EasyPedido\FontesVCL\UnitLogin.dfm</Transaction>
-    <Transaction>2025/02/09 10:56:29.000.336,C:\Users\Jackboy\Documents\Embarcadero\Studio\Projects\Unit1.pas=D:\EasyPedido\FontesVCL\UnitLogin.pas</Transaction>
-    <Transaction>2025/02/09 10:56:43.000.587,C:\Users\Jackboy\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\EasyPedido\FontesVCL\EasyPedido.dproj</Transaction>
+    <Transaction>2025/02/09 10:56:29.000.336,D:\EasyPedido\FontesVCL\UnitLogin.dfm=C:\Users\Jackboy\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2025/02/09 10:56:29.000.336,D:\EasyPedido\FontesVCL\UnitLogin.pas=C:\Users\Jackboy\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/02/09 10:56:43.000.587,D:\EasyPedido\FontesVCL\EasyPedido.dproj=C:\Users\Jackboy\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
     <Transaction>2025/02/09 11:28:53.000.632,=D:\EasyPedido\FontesVCL\Unit1.pas</Transaction>
-    <Transaction>2025/02/09 11:29:08.000.499,D:\EasyPedido\FontesVCL\Unit1.pas=D:\EasyPedido\FontesVCL\UnitPrincipal.pas</Transaction>
-    <Transaction>2025/02/09 11:29:08.000.499,D:\EasyPedido\FontesVCL\Unit1.dfm=D:\EasyPedido\FontesVCL\UnitPrincipal.dfm</Transaction>
+    <Transaction>2025/02/09 11:29:08.000.499,D:\EasyPedido\FontesVCL\UnitPrincipal.dfm=D:\EasyPedido\FontesVCL\Unit1.dfm</Transaction>
+    <Transaction>2025/02/09 11:29:08.000.499,D:\EasyPedido\FontesVCL\UnitPrincipal.pas=D:\EasyPedido\FontesVCL\Unit1.pas</Transaction>
     <Transaction>2025/02/09 11:36:24.000.505,=D:\EasyPedido\FontesVCL\Utils\Vcl.Loading.pas</Transaction>
     <Transaction>2025/02/09 11:49:18.000.187,=D:\EasyPedido\FontesVCL\Utils\Vcl.Session.pas</Transaction>
     <Transaction>2025/02/09 11:49:27.000.960,=D:\EasyPedido\FontesVCL\Utils\Vcl.Navigation.pas</Transaction>
-  </Transactions>
+  </Transactions>  <ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="Utils"/>
+    <File Path="Utils\Vcl.Loading.pas"/>
+    <File Path="Utils\Vcl.Navigation.pas"/>
+    <File Path="Utils\Vcl.Session.pas"/>
+    <File Path="UnitLogin.pas"/>
+    <File Path="UnitLogin.dfm"/>
+    <File Path="UnitPrincipal.pas"/>
+    <File Path="UnitPrincipal.dfm"/>
+  </ProjectSortOrder>
 </BorlandProject>
