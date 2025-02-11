@@ -12,7 +12,11 @@
     <Transaction>2025/02/09 11:36:24.000.505,=D:\EasyPedido\FontesVCL\Utils\Vcl.Loading.pas</Transaction>
     <Transaction>2025/02/09 11:49:18.000.187,=D:\EasyPedido\FontesVCL\Utils\Vcl.Session.pas</Transaction>
     <Transaction>2025/02/09 11:49:27.000.960,=D:\EasyPedido\FontesVCL\Utils\Vcl.Navigation.pas</Transaction>
-  </Transactions>  <ProjectSortOrder AutoSort="0" SortType="0">
+    <Transaction>2025/02/11 17:00:46.000.667,=D:\EasyPedido\FontesVCL\Unit1.pas</Transaction>
+    <Transaction>2025/02/11 17:00:54.000.017,D:\EasyPedido\FontesVCL\Unit1.pas=D:\EasyPedido\FontesVCL\UnitPedido.pas</Transaction>
+    <Transaction>2025/02/11 17:00:54.000.017,D:\EasyPedido\FontesVCL\Unit1.dfm=D:\EasyPedido\FontesVCL\UnitPedido.dfm</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
     <File Path="Utils"/>
     <File Path="Utils\Vcl.Loading.pas"/>
     <File Path="Utils\Vcl.Navigation.pas"/>
@@ -21,5 +25,7 @@
     <File Path="UnitLogin.dfm"/>
     <File Path="UnitPrincipal.pas"/>
     <File Path="UnitPrincipal.dfm"/>
+    <File Path="UnitPedido.pas"/>
+    <File Path="UnitPedido.dfm"/>
   </ProjectSortOrder>
 </BorlandProject>
