@@ -4,8 +4,8 @@ object FrmPedido: TFrmPedido
   Align = alClient
   BorderStyle = bsNone
   Caption = 'Pedidos'
-  ClientHeight = 577
-  ClientWidth = 934
+  ClientHeight = 487
+  ClientWidth = 681
   Color = clWhite
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -18,15 +18,16 @@ object FrmPedido: TFrmPedido
   object pnlHeader: TPanel
     Left = 0
     Top = 0
-    Width = 934
+    Width = 681
     Height = 80
     Align = alTop
     BevelOuter = bvNone
     Color = 16051947
     ParentBackground = False
     TabOrder = 0
-    ExplicitLeft = 24
-    ExplicitTop = -6
+    ExplicitLeft = -16
+    ExplicitTop = 304
+    ExplicitWidth = 1099
     object lbl1: TLabel
       Left = 0
       Top = 17
@@ -43,14 +44,14 @@ object FrmPedido: TFrmPedido
       ShowHint = False
     end
     object pnlEditar: TPanel
-      Left = 524
+      Left = 248
       Top = 15
       Width = 110
       Height = 50
       Margins.Left = 0
-      Margins.Top = 20
+      Margins.Top = 15
       Margins.Right = 0
-      Margins.Bottom = 20
+      Margins.Bottom = 15
       BevelOuter = bvNone
       Color = 16475988
       ParentBackground = False
@@ -74,7 +75,7 @@ object FrmPedido: TFrmPedido
       end
     end
     object pnlInserir: TPanel
-      Left = 667
+      Left = 396
       Top = 15
       Width = 110
       Height = 50
@@ -106,7 +107,7 @@ object FrmPedido: TFrmPedido
       end
     end
     object pnlExcluir: TPanel
-      Left = 811
+      Left = 544
       Top = 15
       Width = 110
       Height = 50
@@ -115,7 +116,7 @@ object FrmPedido: TFrmPedido
       Margins.Right = 0
       Margins.Bottom = 15
       BevelOuter = bvNone
-      Color = 6906591
+      Color = 16475988
       ParentBackground = False
       TabOrder = 2
       object SpeedButton3: TSpeedButton
@@ -133,30 +134,11 @@ object FrmPedido: TFrmPedido
         Font.Name = 'Segoe UI Semibold'
         Font.Style = [fsBold]
         ParentFont = False
-        ExplicitLeft = 40
-        ExplicitTop = 9
+        ExplicitLeft = 16
+        ExplicitTop = 10
+        ExplicitWidth = 144
+        ExplicitHeight = 65
       end
     end
-  end
-  object dbgrd1: TDBGrid
-    Left = 0
-    Top = 80
-    Width = 934
-    Height = 497
-    Align = alClient
-    BorderStyle = bsNone
-    Color = clWhite
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -15
-    Font.Name = 'Segoe UI'
-    Font.Style = []
-    ParentFont = False
-    TabOrder = 1
-    TitleFont.Charset = DEFAULT_CHARSET
-    TitleFont.Color = clWindowText
-    TitleFont.Height = -12
-    TitleFont.Name = 'Segoe UI'
-    TitleFont.Style = []
   end
 end
