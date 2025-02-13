@@ -35,6 +35,7 @@ type
     procedure CategoryMenuButtonsCategories0Items5Click(Sender: TObject);
     procedure FormShow(Sender: TObject);
     procedure CategoryMenuButtonsCategories0Items1Click(Sender: TObject);
+    procedure CategorySubMenuButtonsCategories0Items0Click(Sender: TObject);
   private
     { Private declarations }
     procedure CloseSubMenu(Sender: TObject); // Move this inside the class declaration
@@ -48,7 +49,7 @@ var
 implementation
 
 uses
-  UnitPedido;
+  UnitPedido, UnitCliente;
 
 {$R *.dfm}
 
@@ -83,6 +84,13 @@ procedure TfrmPrincipal.CategoryMenuButtonsCategories0Items1Click(
 begin
   CloseSubMenu(Sender);
   TNavigation.Open(TfrmPedido, FrmPedido, pnlContainer);
+end;
+
+procedure TfrmPrincipal.CategorySubMenuButtonsCategories0Items0Click(
+  Sender: TObject);
+begin
+  CloseSubMenu(Sender);
+  TNavigation.Open(TfrmPrincipal, FrmCliente, pnlContainer)
 end;
 
 procedure TfrmPrincipal.CategoryMenuButtonsCategories0Items2Click(

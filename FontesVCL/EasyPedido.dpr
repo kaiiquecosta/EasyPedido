@@ -7,7 +7,8 @@ uses
   Vcl.Loading in 'Utils\Vcl.Loading.pas',
   Vcl.Session in 'Utils\Vcl.Session.pas',
   Vcl.Navigation in 'Utils\Vcl.Navigation.pas',
-  UnitPedido in 'UnitPedido.pas' {FrmPedido};
+  UnitPedido in 'UnitPedido.pas' {FrmPedido},
+  UnitCliente in 'UnitCliente.pas' {frmCliente};
 
 {$R *.res}
 

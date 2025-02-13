@@ -116,6 +116,10 @@
             <Form>FrmPedido</Form>
             <FormType>dfm</FormType>
         </DCCReference>
+        <DCCReference Include="UnitCliente.pas">
+            <Form>frmCliente</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>

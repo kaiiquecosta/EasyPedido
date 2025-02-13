@@ -394,6 +394,7 @@ object frmPrincipal: TfrmPrincipal
             item
               Caption = ' Clientes'
               ImageIndex = 3
+              OnClick = CategorySubMenuButtonsCategories0Items0Click
             end
             item
               Caption = '  Produtos'
@@ -677,7 +678,6 @@ object frmPrincipal: TfrmPrincipal
       Color = 16051947
       ParentBackground = False
       TabOrder = 1
-      ExplicitLeft = 30
     end
   end
   object imageList: TImageList

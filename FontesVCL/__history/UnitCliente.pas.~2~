@@ -1,0 +1,38 @@
+unit UnitCliente;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Data.DB, Vcl.Grids, Vcl.DBGrids,
+  Vcl.Buttons, Vcl.StdCtrls, Vcl.ExtCtrls;
+
+type
+  TfrmCliente = class(TForm)
+    dbgrd1: TDBGrid;
+    pnlHeader: TPanel;
+    lbl1: TLabel;
+    pnlInserir: TPanel;
+    SpeedButton1: TSpeedButton;
+    pnlEditar: TPanel;
+    SpeedButton2: TSpeedButton;
+    pnlExcluir: TPanel;
+    SpeedButton3: TSpeedButton;
+    pnlBusca: TPanel;
+    Panel3: TPanel;
+    btnBusca: TSpeedButton;
+    edtBusca: TEdit;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmCliente: TfrmCliente;
+
+implementation
+
+{$R *.dfm}
+
+end.
