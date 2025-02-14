@@ -11,9 +11,7 @@ object frmLogin: TfrmLogin
   Font.Height = -11
   Font.Name = 'Tahoma'
   Font.Style = []
-  OldCreateOrder = False
   Position = poMainFormCenter
-  PixelsPerInch = 96
   TextHeight = 13
   object Image1: TImage
     Left = 0

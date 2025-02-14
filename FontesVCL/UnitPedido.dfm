@@ -30,7 +30,7 @@ object FrmPedido: TFrmPedido
       AlignWithMargins = True
       Left = 0
       Top = 18
-      Width = 129
+      Width = 145
       Height = 47
       Margins.Left = 0
       Margins.Top = 18
@@ -155,9 +155,9 @@ object FrmPedido: TFrmPedido
     end
     object pnlBusca: TPanel
       AlignWithMargins = True
-      Left = 129
+      Left = 145
       Top = 0
-      Width = 485
+      Width = 469
       Height = 80
       Margins.Left = 0
       Margins.Top = 0
@@ -172,7 +172,7 @@ object FrmPedido: TFrmPedido
       ExplicitWidth = 506
       object Panel3: TPanel
         AlignWithMargins = True
-        Left = 375
+        Left = 359
         Top = 15
         Width = 110
         Height = 50
@@ -209,7 +209,7 @@ object FrmPedido: TFrmPedido
         AlignWithMargins = True
         Left = 0
         Top = 20
-        Width = 375
+        Width = 359
         Height = 40
         Margins.Left = 0
         Margins.Top = 20

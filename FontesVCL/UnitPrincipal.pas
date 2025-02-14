@@ -90,7 +90,7 @@ procedure TfrmPrincipal.CategorySubMenuButtonsCategories0Items0Click(
   Sender: TObject);
 begin
   CloseSubMenu(Sender);
-  TNavigation.Open(TfrmPrincipal, FrmCliente, pnlContainer)
+  TNavigation.Open(TfrmCliente, FrmCliente, pnlContainer)
 end;
 
 procedure TfrmPrincipal.CategoryMenuButtonsCategories0Items2Click(

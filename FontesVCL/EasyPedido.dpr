@@ -8,11 +8,13 @@ uses
   Vcl.Session in 'Utils\Vcl.Session.pas',
   Vcl.Navigation in 'Utils\Vcl.Navigation.pas',
   UnitPedido in 'UnitPedido.pas' {FrmPedido},
-  UnitCliente in 'UnitCliente.pas' {frmCliente};
+  UnitCliente in 'UnitCliente.pas' {frmCliente},
+  UnitClienteCad in 'UnitClienteCad.pas' {frmClienteCad};
 
 {$R *.res}
 
 begin
+  ReportMemoryLeaksOnShutdown := True;
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
   Application.CreateForm(TfrmLogin, frmLogin);

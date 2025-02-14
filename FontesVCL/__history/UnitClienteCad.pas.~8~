@@ -1,0 +1,50 @@
+unit UnitClienteCad;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Buttons, Vcl.ExtCtrls, Vcl.Navigation;
+
+type
+  TfrmClienteCad = class(TForm)
+    lblTitulo: TLabel;
+    pnlInserir: TPanel;
+    btnCancelar: TSpeedButton;
+    Panel1: TPanel;
+    btnSalvar: TSpeedButton;
+    Label1: TLabel;
+    Edit1: TEdit;
+    procedure lblTituloClick(Sender: TObject);
+    procedure FormClose(Sender: TObject; var Action: TCloseAction);
+    procedure btnCancelarClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmClienteCad: TfrmClienteCad;
+
+implementation
+
+{$R *.dfm}
+
+procedure TfrmClienteCad.btnCancelarClick(Sender: TObject);
+begin
+  TNavigation.Close(Self);
+end;
+
+procedure TfrmClienteCad.FormClose(Sender: TObject; var Action: TCloseAction);
+begin
+  Action := TCloseAction.caFree;
+  frmClienteCad := nil;
+end;
+
+procedure TfrmClienteCad.lblTituloClick(Sender: TObject);
+begin
+  TNavigation.Close(Self);
+end;
+
+end.

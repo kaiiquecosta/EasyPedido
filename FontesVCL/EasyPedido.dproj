@@ -120,6 +120,10 @@
             <Form>frmCliente</Form>
             <FormType>dfm</FormType>
         </DCCReference>
+        <DCCReference Include="UnitClienteCad.pas">
+            <Form>frmClienteCad</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>

@@ -5,7 +5,7 @@ interface
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Data.DB, Vcl.Grids, Vcl.DBGrids,
-  Vcl.Buttons, Vcl.StdCtrls, Vcl.ExtCtrls;
+  Vcl.Buttons, Vcl.StdCtrls, Vcl.ExtCtrls, Vcl.Navigation;
 
 type
   TfrmCliente = class(TForm)
@@ -13,7 +13,7 @@ type
     pnlHeader: TPanel;
     lbl1: TLabel;
     pnlInserir: TPanel;
-    SpeedButton1: TSpeedButton;
+    btnNovo: TSpeedButton;
     pnlEditar: TPanel;
     SpeedButton2: TSpeedButton;
     pnlExcluir: TPanel;
@@ -23,7 +23,9 @@ type
     btnBusca: TSpeedButton;
     edtBusca: TEdit;
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
+    procedure btnNovoClick(Sender: TObject);
   private
+    procedure OpenCadCliente(id_cliente: Integer);
     { Private declarations }
   public
     { Public declarations }
@@ -34,7 +36,20 @@ var
 
 implementation
 
+uses
+  UnitClienteCad;
+
 {$R *.dfm}
+
+procedure TfrmCliente.OpenCadCliente(id_cliente: Integer);
+begin
+  TNavigation.OpenModal(TfrmClienteCad, frmClienteCad)
+end;
+
+procedure TfrmCliente.btnNovoClick(Sender: TObject);
+begin
+  OpenCadCliente(0);
+end;
 
 procedure TfrmCliente.FormClose(Sender: TObject; var Action: TCloseAction);
 begin

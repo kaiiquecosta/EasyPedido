@@ -675,6 +675,7 @@ object frmPrincipal: TfrmPrincipal
       Margins.Right = 30
       Margins.Bottom = 0
       Align = alClient
+      BevelOuter = bvNone
       Color = 16051947
       ParentBackground = False
       TabOrder = 1

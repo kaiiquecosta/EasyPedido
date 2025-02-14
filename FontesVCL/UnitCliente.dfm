@@ -50,7 +50,7 @@ object frmCliente: TfrmCliente
       AlignWithMargins = True
       Left = 0
       Top = 18
-      Width = 129
+      Width = 161
       Height = 47
       Margins.Left = 0
       Margins.Top = 18
@@ -82,7 +82,7 @@ object frmCliente: TfrmCliente
       Color = 16475988
       ParentBackground = False
       TabOrder = 0
-      object SpeedButton1: TSpeedButton
+      object btnNovo: TSpeedButton
         Left = 0
         Top = 0
         Width = 110
@@ -97,9 +97,7 @@ object frmCliente: TfrmCliente
         Font.Name = 'Segoe UI Semibold'
         Font.Style = [fsBold]
         ParentFont = False
-        ExplicitLeft = -3
-        ExplicitWidth = 50
-        ExplicitHeight = 934
+        OnClick = btnNovoClick
       end
     end
     object pnlEditar: TPanel
@@ -175,9 +173,9 @@ object frmCliente: TfrmCliente
     end
     object pnlBusca: TPanel
       AlignWithMargins = True
-      Left = 129
+      Left = 161
       Top = 0
-      Width = 486
+      Width = 454
       Height = 80
       Margins.Left = 0
       Margins.Top = 0
@@ -188,11 +186,11 @@ object frmCliente: TfrmCliente
       Color = 16051947
       ParentBackground = False
       TabOrder = 3
-      ExplicitLeft = 108
-      ExplicitWidth = 507
+      ExplicitLeft = 129
+      ExplicitWidth = 486
       object Panel3: TPanel
         AlignWithMargins = True
-        Left = 376
+        Left = 344
         Top = 15
         Width = 110
         Height = 50
@@ -205,7 +203,6 @@ object frmCliente: TfrmCliente
         Color = 16475988
         ParentBackground = False
         TabOrder = 0
-        ExplicitLeft = 397
         object btnBusca: TSpeedButton
           Left = 0
           Top = 0
@@ -221,14 +218,13 @@ object frmCliente: TfrmCliente
           Font.Name = 'Segoe UI Semibold'
           Font.Style = [fsBold]
           ParentFont = False
-          ExplicitLeft = 3
         end
       end
       object edtBusca: TEdit
         AlignWithMargins = True
         Left = 0
         Top = 20
-        Width = 376
+        Width = 344
         Height = 40
         Margins.Left = 0
         Margins.Top = 20
@@ -242,8 +238,7 @@ object frmCliente: TfrmCliente
         Font.Style = []
         ParentFont = False
         TabOrder = 1
-        ExplicitWidth = 397
-        ExplicitHeight = 33
+        ExplicitTop = 17
       end
     end
   end
